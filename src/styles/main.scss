@@ -1,9 +1,21 @@
-@import "~bootstrap/scss/bootstrap";
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 body {
   background-color: antiquewhite;
   color: brown;
   text-align: center;
   margin-top: 100px;
+  width: 90%;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quad {
+  border: 1px solid red;
+  height: 400px;
+  width: 400px;
 }
