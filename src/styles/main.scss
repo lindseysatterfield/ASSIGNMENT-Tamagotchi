@@ -1,21 +1,34 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import './cardStyles/eat.scss';
+@import './cardStyles/play.scss';
+@import './cardStyles/fight.scss';
+@import './cardStyles/sleep.scss';
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #ffe6e8;
   text-align: center;
-  margin-top: 100px;
-  width: 90%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #app {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 3.5em auto;
 }
 
 .quad {
-  border: 1px solid red;
-  height: 400px;
-  width: 400px;
+  height: 25em;
+  width: 25em;
+  margin: 0.5em;
+}
+
+@media (max-width: 1400px) {
+  #app {
+    width: 80%;
+  }
 }
