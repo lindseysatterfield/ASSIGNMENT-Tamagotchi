@@ -4,14 +4,15 @@ import printToDom from '../../helpers/printToDom';
 const playCard = () => {
   let domString = '';
   domString += `
-    <div class="card" id="eat-card" style="width: auto; height: 100%;">
+    <div class="card" id="play-card" style="width: auto; height: 100%;">
       <div class="card-body">
-        <h5 class="card-title text-center">PLAY level = </h5>
+      <h5 class="card-title text-center" id="play-level">FUN level = 50</h5>
+        <h5 class="card-title text-center"></h5>
         <div class="d-flex flex-column justify-content-center align-items-center">
           <img src="${play}" class="card-img-top" style="width: 67%" alt="Image of illustrated cat">
           <div id="btns">
-            <button type="button" class="btn btn-light mx-5">+ fun</button>
-            <button type="button" class="btn btn-light mx-5">- fun</button>
+            <button type="button" id="play-super-add" class="btn btn-light mx-5">+++ fun</button>
+            <button type="button" id="play-regular-add" class="btn btn-light mx-5">+ fun</button>
           </div>
         </div>
       </div>

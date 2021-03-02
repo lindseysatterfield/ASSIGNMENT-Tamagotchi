@@ -6,7 +6,7 @@ const addFood = (e) => {
   if (full > 100) {
     full = 100;
   }
-  document.querySelector('#eat-level').innerHTML = `EAT LEVEL = ${full}`;
+  document.querySelector('#eat-level').innerHTML = `EAT level = ${full}`;
 };
 
 const subtractFood = (e) => {
@@ -15,7 +15,7 @@ const subtractFood = (e) => {
   if (full < 0) {
     full = 0;
   }
-  document.querySelector('#eat-level').innerHTML = `EAT LEVEL = ${full}`;
+  document.querySelector('#eat-level').innerHTML = `EAT level = ${full}`;
 };
 
 export { subtractFood, addFood };
