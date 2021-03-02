@@ -11,8 +11,8 @@ const eatCard = () => {
         <div class="d-flex flex-column justify-content-center align-items-center">
           <img src="${eatCat}" class="card-img-top" style="width: 67%" alt="Image of illustrated cat">
           <div id="btns">
-            <button type="button" id="eat-add" class="btn btn-light mx-5">+ food</button>
-            <button type="button" id="eat-subtract" class="btn btn-light mx-5">- food</button>
+            <button type="button" id="eat-add" class="btn btn-light mx-5">+ greens</button>
+            <button type="button" id="eat-subtract" class="btn btn-light mx-5">- junk</button>
           </div>
         </div>
       </div>

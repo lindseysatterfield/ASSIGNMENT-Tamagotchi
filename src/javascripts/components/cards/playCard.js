@@ -11,8 +11,8 @@ const playCard = () => {
         <div class="d-flex flex-column justify-content-center align-items-center">
           <img src="${play}" class="card-img-top" style="width: 67%" alt="Image of illustrated cat">
           <div id="btns">
-            <button type="button" id="play-super-add" class="btn btn-light mx-5">+++ fun</button>
-            <button type="button" id="play-regular-add" class="btn btn-light mx-5">+ fun</button>
+            <button type="button" id="play-super-add" class="btn btn-light mx-5" style="margin: 0 1.5em ! important;">+++ catnip</button>
+            <button type="button" id="play-regular-add" class="btn btn-light mx-5" style="margin: 0 1.5em ! important;">+ scratch post</button>
           </div>
         </div>
       </div>
