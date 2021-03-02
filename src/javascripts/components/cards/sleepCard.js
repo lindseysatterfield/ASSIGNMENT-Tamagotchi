@@ -1,5 +1,5 @@
-import sleep from '../../assets/sleep.png';
-import printToDom from '../helpers/printToDom';
+import sleep from '../../../assets/sleep.png';
+import printToDom from '../../helpers/printToDom';
 
 const sleepCard = () => {
   let domString = '';
@@ -11,7 +11,7 @@ const sleepCard = () => {
           <img src="${sleep}" class="card-img-top" style="width: 67%" alt="Image of illustrated cat">
           <div id="btns">
             <button type="button" class="btn btn-light mx-4">+ nap</button>
-            <button type="button" class="btn btn-light mx-4">- deep slumber</button>
+            <button type="button" class="btn btn-light mx-4">+ deep slumber</button>
           </div>
         </div>
       </div>

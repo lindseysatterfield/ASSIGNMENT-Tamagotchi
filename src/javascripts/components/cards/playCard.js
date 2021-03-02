@@ -1,5 +1,5 @@
-import play from '../../assets/play.png';
-import printToDom from '../helpers/printToDom';
+import play from '../../../assets/play.png';
+import printToDom from '../../helpers/printToDom';
 
 const playCard = () => {
   let domString = '';
