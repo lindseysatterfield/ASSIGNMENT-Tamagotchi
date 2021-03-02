@@ -1,5 +1,5 @@
-import fight from '../../assets/fight.png';
-import printToDom from '../helpers/printToDom';
+import fight from '../../../assets/fight.png';
+import printToDom from '../../helpers/printToDom';
 
 const fightCard = () => {
   let domString = '';

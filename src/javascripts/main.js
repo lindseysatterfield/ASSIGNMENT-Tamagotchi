@@ -1,14 +1,10 @@
 import '../styles/main.scss';
-import eatCard from './components/eatCard';
-import playCard from './components/playCard';
-import fightCard from './components/fightCard';
-import sleepCard from './components/sleepCard';
+import cardBuilder from './components/cardBuilder';
+import domEvents from './helpers/domEvents';
 
 const init = () => {
-  eatCard();
-  playCard();
-  fightCard();
-  sleepCard();
+  cardBuilder();
+  domEvents();
 };
 
 init();
